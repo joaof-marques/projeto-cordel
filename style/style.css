@@ -38,7 +38,10 @@ header a:hover{
     text-decoration: underline;
 }
 
+/* HEADER /\ */
 /* --------------------------------- */
+/* MAIN   \/ */
+
 section{
     font-family: var(--fonte-poema);
     font-size: 3.5vw;
@@ -66,4 +69,24 @@ section p{
     background: black url(../imagens/background002.jpg) center right no-repeat fixed;
     background-size: cover;
     color: white;   
+}
+
+/* MAIN   /\ */
+/* --------------------------------- */
+/* FOOTER \/ */
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: underline;
 }
